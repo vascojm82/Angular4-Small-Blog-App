@@ -34,6 +34,6 @@ export class PostsComponent implements OnInit {
 
   getComments(postID: number){
       console.log(postID);
-      this.router.navigate(['comments', postID]);   //Changes to requested URL but then inmediately returns to '/'
+      this.router.navigate(['comments', postID]);   //Changes to requested URL
   }
 }
